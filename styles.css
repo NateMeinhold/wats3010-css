@@ -13,6 +13,7 @@ header h1 {
     margin-bottom: 0;
 }
 
+
 header p {
     margin-top: 0;
 }
@@ -20,7 +21,7 @@ header p {
 aside { 
     max-width:756px;
     width: 50%;
-    padding: 1rem
+    padding: 1rem;
 }
 
 element.style {
@@ -38,17 +39,38 @@ section {
 
 ul.poem{
     list-style-type:none; 
-    padding-left: 0;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
     line-height: 1.5;
     font-size: 1.2rem;
+    background-image: url(images/hard-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header ::first-letter {
+    font-size: 150%;
+    color: black;
+    font-style: italic; 
+}
+
+ul.poem ::first-letter {
+    font-size: 110%;
+    color: black;
+    font-style: italic; 
 }
 .content-footer {
-   
+  
 }
 
 .page-footer{
     border-top:2px rgba(0, 0, 0, 0.6) solid;
-    padding-top: 2rem
+    padding-top: 2rem;
+    color:white;
+    list-style-type:none;
 }
 
 html {
@@ -62,4 +84,12 @@ body {
     width: 75%;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+    text-decoration: none;
+}
+
+.infolinks, .social-links {
+    color:black
 }
