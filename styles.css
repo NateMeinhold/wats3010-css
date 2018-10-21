@@ -90,6 +90,13 @@ a {
     text-decoration: none;
 }
 
-.infolinks, .social-links {
+.infolinks {
     color:black
+}
+
+.citation a:link {
+    color:white
+}
+.citation {
+    color:white
 }
