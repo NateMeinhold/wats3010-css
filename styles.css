@@ -90,15 +90,18 @@ a {
     text-decoration: none;
 }
 
-.info-links {
-    color:black
+ul.info-links {
+    color:black;
+    list-style-type:none
 }
+
 .info-links a:link{
     color:black
 }
 
 .social-links {
-    color:black
+    color:black;
+    list-style-type:none
 }
 .social-links a:link{
     color:black
